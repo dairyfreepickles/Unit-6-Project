@@ -1,0 +1,28 @@
+body {
+    font-family: "Bree Serif", sans-serif;
+ 
+   background-image: url("magic girl");
+
+background-color:#B17EBC;
+}
+
+
+
+.container, .results {
+    width: 400px;
+    padding: 10px;
+    margin: 50px auto;
+    border: 5px solid #000;
+    border-radius: 20px;
+    background-color: purple;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+
+.container:hover {
+    background-color:#643B6C ;
+    border-color: #000000;
+}
